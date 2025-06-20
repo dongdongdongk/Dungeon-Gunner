@@ -47,6 +47,7 @@ public class RoomNodeSO : ScriptableObject
 
         // Start Region To Detect Popup Selection Changes
         EditorGUI.BeginChangeCheck();
+        
 
         // Display a popup using the RoomNodeType name values that can be selected from (default to the currently set roomNodeType)
         int selected = roomNodeTypeList.list.FindIndex(x => x == roomNodeType);
